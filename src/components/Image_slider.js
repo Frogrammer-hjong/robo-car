@@ -11,7 +11,7 @@ const ImageSlider = () => {
         <div className="keyimage_wrap">
           <img src={slideimage} className="keyimage_style" alt="React" />
           <span className="keyspan_style">
-            하나의 플랫폼에서 운송부터 예약까지
+            하나의 플랫폼에서 운송부터 예약까지1
           </span>
         </div>
       </div>
