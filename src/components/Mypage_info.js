@@ -6,11 +6,11 @@ function Mypage_info() {
     <div className={styles.mypageinfocontainer}>
       <div className={styles.myinfocontain}>
         <div className={styles.infotopic}>
-          <h1 className={styles.ratingtopic}>마이페이지</h1>
+          {/* <h1 className={styles.ratingtopic}>마이페이지</h1>
           <div className={styles.choosebtn}>
             <button className={styles.selectbtn}>개인정보 수정</button>
             <button className={styles.rightbtn}>예약내역</button>
-          </div>
+          </div> */}
           <p className={styles.pagetopic}>개인정보 수정</p>
         </div>
         <div className={styles.hline}></div>

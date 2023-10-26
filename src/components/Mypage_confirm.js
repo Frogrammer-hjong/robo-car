@@ -82,11 +82,11 @@ function Mypage_confirm() {
     <div className={styles.mypageconfcontainer}>
       <div className={styles.myconfcontain}>
         <div className={styles.conftopic}>
-          <h1 className={styles.conftopic}>마이페이지</h1>
+          {/* <h1 className={styles.conftopic}>마이페이지</h1>
           <div className={styles.choosebtn}>
             <button className={styles.leftbtn}>개인정보 수정</button>
             <button className={styles.selectbtn}>예약내역</button>
-          </div>
+          </div> */}
           <p className={styles.pagetopic}>예약내역</p>
           <div className={styles.hline}></div>
         </div>
