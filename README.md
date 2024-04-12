@@ -1,6 +1,6 @@
 # Robo-car
 
-![logo_background.png](Robo-car%20a7a209a126914fd0b5a47e75f6f554a7/logo_background.png)
+![logo_background](https://github.com/Frogrammer-hjong/robo-car/assets/136086162/ee436c36-8f3a-4f5e-af05-2dd35b27a63f)
 
 ## 프론트엔드 개발자 취업 캠프 (React) 2회차_4조 팀 프로젝트
 
