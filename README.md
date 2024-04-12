@@ -1,70 +1,233 @@
-# Getting Started with Create React App
+# Robo-car
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![logo_background.png](Robo-car%20a7a209a126914fd0b5a47e75f6f554a7/logo_background.png)
 
-## Available Scripts
+## 프론트엔드 개발자 취업 캠프 (React) 2회차_4조 팀 프로젝트
 
-In the project directory, you can run:
 
-### `npm start`
+> 무인 운송차량 관제 및 충전소 위치정보 제공 시스템
+> 
+- 개발 기간: 2023.10 ~ 2023.11 ( 약 6주 )
+- 개발 인원: 5명
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 프로젝트 소개
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+로보카는 무인 운송차량의 관제 및 충전소 위치를 제공하는 서비스 입니다.
 
-### `npm test`
+무인 차량을 이용한 물류 운송 예약, 실시간 차량 위치 확인 등의 서비스를 통해 새로운 물류 시스템을 제안합니다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 시작 가이드
 
-### `npm run build`
+> **요구 사항 (Requirements)**
+> 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+For building and running the application you need:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js v18.17.1
+- npm v9.6.7
+- nodemon v3.0.1
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+> 설치 (Installation)
+> 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+> https://github.com/Frogrammer-hjong/robo-car.git
+> npm i
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> 실행 (Run)
+> 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Back-end**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+> cd src/server
+> nodemon server
+```
 
-## Learn More
+**Front-end**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+> npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 개발 환경 및 기술 스택
 
-### Code Splitting
+> 개발 환경 (Environment)
+> 
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white)
+![windows11](https://img.shields.io/badge/windows11-007ACC?style=for-the-badge&logo=windows11&logoColor=white)
+> 기술 스택 (Stack)
+> 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Front-end**
 
-### Analyzing the Bundle Size
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=white)
+![html5](https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![styledcomponents](https://img.shields.io/badge/styled%20components-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=white)
+![cssmodules](https://img.shields.io/badge/css%20modules-000000?style=for-the-badge&logo=cssmodules&logoColor=white)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Back-end**
 
-### Making a Progressive Web App
+![express](https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white)
+![node.js](https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![nodemon](https://img.shields.io/badge/nodemon-76D04B?style=for-the-badge&logo=nodemon&logoColor=white)
+![mysql](https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+**협업 (Communication)**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white)
+![figma](https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![zoom](https://img.shields.io/badge/zoom-0B5CFF?style=for-the-badge&logo=zoom&logoColor=white)
+![discord](https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white)
+![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)
 
-### Deployment
+## 디렉토리 구조
+robo-car
+ ┣ public
+ ┃ ┣ assets
+ ┃ ┃ ┣ car.png
+ ┃ ┃ ┣ chargingMarker.png
+ ┃ ┃ ┣ keyimage_01.jpg
+ ┃ ┃ ┣ keyimage_02.jpg
+ ┃ ┃ ┣ selectedStn.png
+ ┃ ┃ ┗ step_keyimage.jpg
+ ┃ ┣ favicon.ico
+ ┃ ┣ index.html
+ ┃ ┣ logo192.png
+ ┃ ┣ logo512.png
+ ┃ ┣ manifest.json
+ ┃ ┗ robots.txt
+ ┣ src
+ ┃ ┣ assets
+ ┃ ┃ ┣ answer.png
+ ┃ ┃ ┣ arrow.png
+ ┃ ┃ ┣ calendar.png
+ ┃ ┃ ┣ controlimage.jpg
+ ┃ ┃ ┣ controlmain.png
+ ┃ ┃ ┣ delivery-truck.png
+ ┃ ┃ ┣ effectimage_01.jpg
+ ┃ ┃ ┣ effectimage_02.jpg
+ ┃ ┃ ┣ fast-forward.png
+ ┃ ┃ ┣ footer_logo.png
+ ┃ ┃ ┣ info.png
+ ┃ ┃ ┣ infomark.png
+ ┃ ┃ ┣ keyimage_01.jpg
+ ┃ ┃ ┣ laptop.png
+ ┃ ┃ ┣ logo.png
+ ┃ ┃ ┣ lorry.png
+ ┃ ┃ ┣ notes.png
+ ┃ ┃ ┣ outlineimage_01.jpg
+ ┃ ┃ ┣ outlineimage_02.jpg
+ ┃ ┃ ┣ packagepick.png
+ ┃ ┃ ┣ racing.png
+ ┃ ┃ ┣ reser_keyimage.jpg
+ ┃ ┃ ┣ right.png
+ ┃ ┃ ┣ step_keyimage.jpg
+ ┃ ┃ ┣ tick_mark.png
+ ┃ ┃ ┣ truck_01.png
+ ┃ ┃ ┗ truck_02.png
+ ┃ ┣ components
+ ┃ ┃ ┣ About_us.js
+ ┃ ┃ ┣ Batterystatus.js
+ ┃ ┃ ┣ Confirm_func.jsx
+ ┃ ┃ ┣ Control_main.js
+ ┃ ┃ ┣ Currenttime.js
+ ┃ ┃ ┣ Customer_FAQ.js
+ ┃ ┃ ┣ Customer_help_center.jsx
+ ┃ ┃ ┣ Customer_rating.js
+ ┃ ┃ ┣ Customer_review_list.jsx
+ ┃ ┃ ┣ Footer.js
+ ┃ ┃ ┣ Header.js
+ ┃ ┃ ┣ Image_slider.js
+ ┃ ┃ ┣ Img_slider.js
+ ┃ ┃ ┣ Join.js
+ ┃ ┃ ┣ Login.js
+ ┃ ┃ ┣ Main_page.js
+ ┃ ┃ ┣ Manager_header.js
+ ┃ ┃ ┣ Manager_main.js
+ ┃ ┃ ┣ Manager_member.js
+ ┃ ┃ ┣ Manager_member_detail.js
+ ┃ ┃ ┣ Manager_notice.js
+ ┃ ┃ ┣ Manager_notice_add.js
+ ┃ ┃ ┣ Manager_notice_modify.js
+ ┃ ┃ ┣ Manager_page.js
+ ┃ ┃ ┣ Manager_reserv.js
+ ┃ ┃ ┣ Manager_review.js
+ ┃ ┃ ┣ Manager_vehicle.js
+ ┃ ┃ ┣ Manager_vehicle_add.js
+ ┃ ┃ ┣ Marker.js
+ ┃ ┃ ┣ Mypage.jsx
+ ┃ ┃ ┣ Mypage_confirm.js
+ ┃ ┃ ┣ Mypage_info.js
+ ┃ ┃ ┣ Notice_detail.js
+ ┃ ┃ ┣ Notice_main.js
+ ┃ ┃ ┣ Reservation.js
+ ┃ ┃ ┣ Scroll_top.js
+ ┃ ┃ ┗ Sidebar.jsx
+ ┃ ┣ server
+ ┃ ┃ ┣ config
+ ┃ ┃ ┃ ┗ db_config.js
+ ┃ ┃ ┗ server.js
+ ┃ ┣ style
+ ┃ ┃ ┣ About_us.module.css
+ ┃ ┃ ┣ Confirm_func.css
+ ┃ ┃ ┣ Control_main.module.css
+ ┃ ┃ ┣ Customer_faq.module.css
+ ┃ ┃ ┣ Customer_help_center.module.css
+ ┃ ┃ ┣ Customer_rating.module.css
+ ┃ ┃ ┣ Customer_review_list.module.css
+ ┃ ┃ ┣ Footer.module.css
+ ┃ ┃ ┣ Header.module.css
+ ┃ ┃ ┣ Image_slider.module.css
+ ┃ ┃ ┣ Join.module.css
+ ┃ ┃ ┣ Login.module.css
+ ┃ ┃ ┣ Main_page.module.css
+ ┃ ┃ ┣ Manager_header.module.css
+ ┃ ┃ ┣ Manager_main.module.css
+ ┃ ┃ ┣ Manager_member.module.css
+ ┃ ┃ ┣ Manager_member_detail.module.css
+ ┃ ┃ ┣ Manager_notice.module.css
+ ┃ ┃ ┣ Manager_notice_add.module.css
+ ┃ ┃ ┣ Manager_notice_modify.module.css
+ ┃ ┃ ┣ Manager_page.module.css
+ ┃ ┃ ┣ Manager_reserv.module.css
+ ┃ ┃ ┣ Manager_review.module.css
+ ┃ ┃ ┣ Manager_vehicle.module.css
+ ┃ ┃ ┣ Manager_vehicle_add.module.css
+ ┃ ┃ ┣ Mypage.module.css
+ ┃ ┃ ┣ Mypage_confirm.module.css
+ ┃ ┃ ┣ Mypage_info.module.css
+ ┃ ┃ ┣ Notice_detail.css
+ ┃ ┃ ┣ Notice_detail.module.css
+ ┃ ┃ ┣ Notice_main.module.css
+ ┃ ┃ ┣ Reservation.module.css
+ ┃ ┃ ┣ Sidebar.module.css
+ ┃ ┃ ┗ Toast.css
+ ┃ ┣ App.css
+ ┃ ┣ App.js
+ ┃ ┣ App.test.js
+ ┃ ┣ index.css
+ ┃ ┣ index.js
+ ┃ ┣ logo.svg
+ ┃ ┣ reportWebVitals.js
+ ┃ ┣ setupProxy.js
+ ┃ ┗ setupTests.js
+ ┣ .gitignore
+ ┣ package-lock.json
+ ┣ package.json
+ ┣ README.md
+ ┗ yarn.lock
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 화면 구성
+
+| 메인 페이지 |  |
+| --- | --- |
+| ![main.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/c2dbf2e4-9c5e-4bdb-b4e0-936cb82f752b/3a0bcc1f-118f-46e3-a2e6-550904de6459/main.gif) |  |
+|  |  |
