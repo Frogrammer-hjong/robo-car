@@ -26,6 +26,7 @@ For building and running the application you need:
 - Node.js v18.17.1
 - npm v9.6.7
 - nodemon v3.0.1
+- mySQL
 
 
 > 설치 (Installation)
@@ -46,6 +47,10 @@ For building and running the application you need:
 > nodemon server
 ```
 
+[latestQuery.zip](https://github.com/Frogrammer-hjong/robo-car/files/14957175/latestQuery.zip)
+
+⬆️ 위 파일을 이용해 테이블 생성
+
 **Front-end**
 
 ```bash
@@ -54,14 +59,15 @@ For building and running the application you need:
 
 ## 개발 환경 및 기술 스택
 
-> 개발 환경 (Environment)
+#### 개발 환경 (Environment)
 > 
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white)
 ![windows11](https://img.shields.io/badge/windows11-007ACC?style=for-the-badge&logo=windows11&logoColor=white)
-> 기술 스택 (Stack)
+
+#### 기술 스택 (Stack)
 > 
 
-**Front-end**
+> **Front-end**
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=white)
@@ -69,7 +75,7 @@ For building and running the application you need:
 ![styledcomponents](https://img.shields.io/badge/styled%20components-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=white)
 ![cssmodules](https://img.shields.io/badge/css%20modules-000000?style=for-the-badge&logo=cssmodules&logoColor=white)
 
-**Back-end**
+> **Back-end**
 
 ![express](https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![node.js](https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -77,9 +83,12 @@ For building and running the application you need:
 ![mysql](https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 
-**협업 (Communication)**
+> **협업 (Communication)**
 
-![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white)
+<a href="http://frogrammer.notion.site/4-_-2aa2514115bb4806a3d9f3462bf6885b?pvs=74" target="_blank">![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white)</a>
+
+**⬆️ 클릭 시 협업 진행했던 노션 페이지로 이동 가능!**
+
 ![figma](https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![zoom](https://img.shields.io/badge/zoom-0B5CFF?style=for-the-badge&logo=zoom&logoColor=white)
 ![discord](https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)
@@ -95,6 +104,7 @@ For building and running the application you need:
 ✅ **회원가입/로그인**
  - 이름, 연락처, 주소 등을 기입 받아 회원가입
  - 가입 된 아이디와 패스워드로 로그인 가능
+ - 관리자 계정으로 로그인 시 회원 관리, 차량 관리, 예약 관리 등 관리자 권한 수행 가능
 
 ✅ **마이 페이지**
 - 로그인 된 사용자의 정보 확인 가능
