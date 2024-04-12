@@ -65,62 +65,164 @@ For building and running the application you need:
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=white)
-![html5](https://img.shields.io/badge/html더
- ┃ ┃ ┣ About_us.module.css
- ┃ ┃ ┣ Confirm_func.css
- ┃ ┃ ┣ Control_main.module.css
- ┃ ┃ ┣ Customer_faq.module.css
- ┃ ┃ ┣ Customer_help_center.module.css
- ┃ ┃ ┣ Customer_rating.module.css
- ┃ ┃ ┣ Customer_review_list.module.css
- ┃ ┃ ┣ Footer.module.css
- ┃ ┃ ┣ Header.module.css
- ┃ ┃ ┣ Image_slider.module.css
- ┃ ┃ ┣ Join.module.css
- ┃ ┃ ┣ Login.module.css
- ┃ ┃ ┣ Main_page.module.css
- ┃ ┃ ┣ Manager_header.module.css
- ┃ ┃ ┣ Manager_main.module.css
- ┃ ┃ ┣ Manager_member.module.css
- ┃ ┃ ┣ Manager_member_detail.module.css
- ┃ ┃ ┣ Manager_notice.module.css
- ┃ ┃ ┣ Manager_notice_add.module.css
- ┃ ┃ ┣ Manager_notice_modify.module.css
- ┃ ┃ ┣ Manager_page.module.css
- ┃ ┃ ┣ Manager_reserv.module.css
- ┃ ┃ ┣ Manager_review.module.css
- ┃ ┃ ┣ Manager_vehicle.module.css
- ┃ ┃ ┣ Manager_vehicle_add.module.css
- ┃ ┃ ┣ Mypage.module.css
- ┃ ┃ ┣ Mypage_confirm.module.css
- ┃ ┃ ┣ Mypage_info.module.css
- ┃ ┃ ┣ Notice_detail.css
- ┃ ┃ ┣ Notice_detail.module.css
- ┃ ┃ ┣ Notice_main.module.css
- ┃ ┃ ┣ Reservation.module.css
- ┃ ┃ ┣ Sidebar.module.css
- ┃ ┃ ┗ Toast.css
- ┃ ┣ App.css
- ┃ ┣ App.js
- ┃ ┣ App.test.js
- ┃ ┣ index.css
- ┃ ┣ index.js
- ┃ ┣ logo.svg
- ┃ ┣ reportWebVitals.js
- ┃ ┣ setupProxy.js
- ┃ ┗ setupTests.js
- ┣ .gitignore
- ┣ package-lock.json
- ┣ package.json
- ┣ README.md
- ┗ yarn.lock
+![html5](https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![styledcomponents](https://img.shields.io/badge/styled%20components-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=white)
+![cssmodules](https://img.shields.io/badge/css%20modules-000000?style=for-the-badge&logo=cssmodules&logoColor=white)
+
+**Back-end**
+
+![express](https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white)
+![node.js](https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![nodemon](https://img.shields.io/badge/nodemon-76D04B?style=for-the-badge&logo=nodemon&logoColor=white)
+![mysql](https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+
+**협업 (Communication)**
+
+![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white)
+![figma](https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![zoom](https://img.shields.io/badge/zoom-0B5CFF?style=for-the-badge&logo=zoom&logoColor=white)
+![discord](https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white)
+![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)
+ 
+
+
+```bash
+📦robo-car
+ ┣ 📂public
+ ┃ ┣ 📂assets
+ ┃ ┃ ┣ 📜car.png
+ ┃ ┃ ┣ 📜chargingMarker.png
+ ┃ ┃ ┣ 📜keyimage_01.jpg
+ ┃ ┃ ┣ 📜keyimage_02.jpg
+ ┃ ┃ ┣ 📜selectedStn.png
+ ┃ ┃ ┗ 📜step_keyimage.jpg
+ ┃ ┣ 📜favicon.ico
+ ┃ ┣ 📜index.html
+ ┃ ┣ 📜logo192.png
+ ┃ ┣ 📜logo512.png
+ ┃ ┣ 📜manifest.json
+ ┃ ┗ 📜robots.txt
+ ┣ 📂src
+ ┃ ┣ 📂assets # 페이지 컴포넌트에서 사용되는 이미지 파일 폴더
+ ┃ ┃ ┣ 📜answer.png
+ ┃ ┃ ┣ 📜arrow.png
+ ┃ ┃ ┣ 📜calendar.png
+ ┃ ┃ ┣ 📜controlimage.jpg
+ ┃ ┃ ┣ 📜controlmain.png
+ ┃ ┃ ┣ 📜delivery-truck.png
+ ┃ ┃ ┣ 📜effectimage_01.jpg
+ ┃ ┃ ┣ 📜effectimage_02.jpg
+ ┃ ┃ ┣ 📜fast-forward.png
+ ┃ ┃ ┣ 📜footer_logo.png
+ ┃ ┃ ┣ 📜info.png
+ ┃ ┃ ┣ 📜infomark.png
+ ┃ ┃ ┣ 📜keyimage_01.jpg
+ ┃ ┃ ┣ 📜laptop.png
+ ┃ ┃ ┣ 📜logo.png
+ ┃ ┃ ┣ 📜lorry.png
+ ┃ ┃ ┣ 📜notes.png
+ ┃ ┃ ┣ 📜outlineimage_01.jpg
+ ┃ ┃ ┣ 📜outlineimage_02.jpg
+ ┃ ┃ ┣ 📜packagepick.png
+ ┃ ┃ ┣ 📜racing.png
+ ┃ ┃ ┣ 📜reser_keyimage.jpg
+ ┃ ┃ ┣ 📜right.png
+ ┃ ┃ ┣ 📜step_keyimage.jpg
+ ┃ ┃ ┣ 📜tick_mark.png
+ ┃ ┃ ┣ 📜truck_01.png
+ ┃ ┃ ┗ 📜truck_02.png
+ ┃ ┣ 📂components # 페이지 컴포넌트 파일(.js , .jsx) 폴더
+ ┃ ┃ ┣ 📜About_us.js
+ ┃ ┃ ┣ 📜Batterystatus.js
+ ┃ ┃ ┣ 📜Confirm_func.jsx
+ ┃ ┃ ┣ 📜Control_main.js
+ ┃ ┃ ┣ 📜Currenttime.js
+ ┃ ┃ ┣ 📜Customer_FAQ.js
+ ┃ ┃ ┣ 📜Customer_help_center.jsx
+ ┃ ┃ ┣ 📜Customer_rating.js
+ ┃ ┃ ┣ 📜Customer_review_list.jsx
+ ┃ ┃ ┣ 📜Footer.js
+ ┃ ┃ ┣ 📜Header.js
+ ┃ ┃ ┣ 📜Image_slider.js
+ ┃ ┃ ┣ 📜Img_slider.js
+ ┃ ┃ ┣ 📜Join.js
+ ┃ ┃ ┣ 📜Login.js
+ ┃ ┃ ┣ 📜Main_page.js
+ ┃ ┃ ┣ 📜Manager_header.js
+ ┃ ┃ ┣ 📜Manager_main.js
+ ┃ ┃ ┣ 📜Manager_member.js
+ ┃ ┃ ┣ 📜Manager_member_detail.js
+ ┃ ┃ ┣ 📜Manager_notice.js
+ ┃ ┃ ┣ 📜Manager_notice_add.js
+ ┃ ┃ ┣ 📜Manager_notice_modify.js
+ ┃ ┃ ┣ 📜Manager_page.js
+ ┃ ┃ ┣ 📜Manager_reserv.js
+ ┃ ┃ ┣ 📜Manager_review.js
+ ┃ ┃ ┣ 📜Manager_vehicle.js
+ ┃ ┃ ┣ 📜Manager_vehicle_add.js
+ ┃ ┃ ┣ 📜Marker.js
+ ┃ ┃ ┣ 📜Mypage.jsx
+ ┃ ┃ ┣ 📜Mypage_confirm.js
+ ┃ ┃ ┣ 📜Mypage_info.js
+ ┃ ┃ ┣ 📜Notice_detail.js
+ ┃ ┃ ┣ 📜Notice_main.js
+ ┃ ┃ ┣ 📜Reservation.js
+ ┃ ┃ ┣ 📜Scroll_top.js
+ ┃ ┃ ┗ 📜Sidebar.jsx
+ ┃ ┣ 📂server # DB 연결과 관련된 서버 폴더
+ ┃ ┃ ┣ 📂config
+ ┃ ┃ ┃ ┗ 📜db_config.js
+ ┃ ┃ ┗ 📜server.js
+ ┃ ┣ 📂style # 페이지 디자인을 위한 css, module.css 파일 폴더
+ ┃ ┃ ┣ 📜About_us.module.css
+ ┃ ┃ ┣ 📜Confirm_func.css
+ ┃ ┃ ┣ 📜Control_main.module.css
+ ┃ ┃ ┣ 📜Customer_faq.module.css
+ ┃ ┃ ┣ 📜Customer_help_center.module.css
+ ┃ ┃ ┣ 📜Customer_rating.module.css
+ ┃ ┃ ┣ 📜Customer_review_list.module.css
+ ┃ ┃ ┣ 📜Footer.module.css
+ ┃ ┃ ┣ 📜Header.module.css
+ ┃ ┃ ┣ 📜Image_slider.module.css
+ ┃ ┃ ┣ 📜Join.module.css
+ ┃ ┃ ┣ 📜Login.module.css
+ ┃ ┃ ┣ 📜Main_page.module.css
+ ┃ ┃ ┣ 📜Manager_header.module.css
+ ┃ ┃ ┣ 📜Manager_main.module.css
+ ┃ ┃ ┣ 📜Manager_member.module.css
+ ┃ ┃ ┣ 📜Manager_member_detail.module.css
+ ┃ ┃ ┣ 📜Manager_notice.module.css
+ ┃ ┃ ┣ 📜Manager_notice_add.module.css
+ ┃ ┃ ┣ 📜Manager_notice_modify.module.css
+ ┃ ┃ ┣ 📜Manager_page.module.css
+ ┃ ┃ ┣ 📜Manager_reserv.module.css
+ ┃ ┃ ┣ 📜Manager_review.module.css
+ ┃ ┃ ┣ 📜Manager_vehicle.module.css
+ ┃ ┃ ┣ 📜Manager_vehicle_add.module.css
+ ┃ ┃ ┣ 📜Mypage.module.css
+ ┃ ┃ ┣ 📜Mypage_confirm.module.css
+ ┃ ┃ ┣ 📜Mypage_info.module.css
+ ┃ ┃ ┣ 📜Notice_detail.css
+ ┃ ┃ ┣ 📜Notice_detail.module.css
+ ┃ ┃ ┣ 📜Notice_main.module.css
+ ┃ ┃ ┣ 📜Reservation.module.css
+ ┃ ┃ ┣ 📜Sidebar.module.css
+ ┃ ┃ ┗ 📜Toast.css
+ ┃ ┣ 📜App.css
+ ┃ ┣ 📜App.js
+ ┃ ┣ 📜App.test.js
+ ┃ ┣ 📜index.css
+ ┃ ┣ 📜index.js
+ ┃ ┣ 📜logo.svg
+ ┃ ┣ 📜reportWebVitals.js
+ ┃ ┣ 📜setupProxy.js
+ ┃ ┗ 📜setupTests.js
+ ┣ 📜.gitignore
+ ┣ 📜package-lock.json
+ ┣ 📜package.json
+ ┣ 📜README.md
+ ┗ 📜yarn.lock
+
 ```
-
-
-
-## 화면 구성
-
-| 메인 페이지 |  |
-| --- | --- |
-| ![main.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/c2dbf2e4-9c5e-4bdb-b4e0-936cb82f752b/3a0bcc1f-118f-46e3-a2e6-550904de6459/main.gif) |  |
-|  |  |
