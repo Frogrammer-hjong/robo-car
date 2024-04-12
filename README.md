@@ -249,3 +249,12 @@ For building and running the application you need:
  ┗ 📜yarn.lock
 
 ```
+
+## 페이지 구성
+| 메인 페이지  |  관제 페이지   |
+| :----------: | :------------: |
+|![main](https://github.com/Frogrammer-hjong/robo-car/assets/136086162/2c5da14a-8739-45cf-8c2e-e4d46006900f)|![moniter](https://github.com/Frogrammer-hjong/robo-car/assets/136086162/6a3d37e3-3865-43b6-84e0-4f1f359eb0e3)|
+
+| 고객 센터 | 마이 페이지 |
+| :----------: | :------------: |
+|![serviceCenter](https://github.com/Frogrammer-hjong/robo-car/assets/136086162/91927599-7b73-4439-9061-fbef8dc3f036)|![mypage](https://github.com/Frogrammer-hjong/robo-car/assets/136086162/cf680670-b50f-4ead-b340-89fe2c6fa77d)|
