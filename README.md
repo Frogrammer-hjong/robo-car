@@ -86,7 +86,30 @@ For building and running the application you need:
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white)
 ![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)
  
+## 주요 기능
 
+✅ **차량 관제**
+- 운행 중인 차량의 위치 조회 가능
+- 충전소 위치 조회 가능
+
+✅ **회원가입/로그인**
+ - 이름, 연락처, 주소 등을 기입 받아 회원가입
+ - 가입 된 아이디와 패스워드로 로그인 가능
+
+✅ **마이 페이지**
+- 로그인 된 사용자의 정보 확인 가능
+- 해당 페이지에서 아이디를 제외한 개인 정보 수정 가능
+- 해당 계정으로 운송예약한 정보 확인 가능
+
+✅ **운송 예약**
+- 운송차량, 시간 등을 기입 받아 운송 예약 가능
+
+✅ **고객센터**
+- 자주 묻는 질문 확인 가능
+- 진행된 예약 건에 대한 사용자 리뷰 확인 가능
+
+
+## 디렉토리 구조
 
 ```bash
 📦robo-car
