@@ -87,6 +87,7 @@ For building and running the application you need:
 ![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)
 
 ## 디렉토리 구조
+```bash
 robo-car
  ┣ public
  ┃ ┣ assets
@@ -222,6 +223,7 @@ robo-car
  ┣ package.json
  ┣ README.md
  ┗ yarn.lock
+```
 
 
 
